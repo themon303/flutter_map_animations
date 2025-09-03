@@ -31,10 +31,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_map: ^8.0.0
+  flutter_map:
+    git:
+      url: https://github.com/themon303/flutter_map
   flutter_map_animations:
     path: ../
-  flutter_map_cancellable_tile_provider: ^3.1.0
+  flutter_map_cancellable_tile_provider:
+    git:
+      url: https://github.com/themon303/flutter_map_cancellable_tile_provider
   latlong2: ^0.9.1
 
 dev_dependencies:

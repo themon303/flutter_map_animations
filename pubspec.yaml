@@ -21,12 +21,14 @@ topics:
   - animation
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: '>=3.5.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_map: ^8.0.0
+  flutter_map:
+    git:
+      url: https://github.com/themon303/flutter_map
   latlong2: ^0.9.1
 
 dev_dependencies:
